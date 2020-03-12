@@ -1,0 +1,40 @@
+<LinearLayout
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="center">
+
+    android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/explore_button"
+        android:layout_gravity="center"
+        android:background="@drawable/myroundbutton"
+        android:layout_marginTop="40dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Explore the buildings"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:id="@+id/guidedTour_button"
+        android:layout_gravity="center"
+        android:background="@drawable/myroundbutton"
+        android:layout_marginTop="40dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Guided Tour"
+        android:textColor="#ffffff"/>
+    <Button
+        android:id="@+id/futureCampus_button"
+        android:layout_gravity="center"
+        android:background="@drawable/myroundbutton"
+        android:layout_marginTop="40dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Future Campus"
+        android:textColor="#ffffff"/>
+
+</LinearLayout>
