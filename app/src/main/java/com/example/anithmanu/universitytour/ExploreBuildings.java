@@ -47,7 +47,7 @@ public class ExploreBuildings extends AppCompatActivity {
         boyd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String uri = "geo: 55.873561,-4.292536?z=40 & q=(Boyd Orr Building)";
+                String uri = "geo:0,0?q=55  x.873561,-4.292536(Boyd Orr Building)";
                 Intent intent = new Intent(Intent.ACTION_VIEW);
                 intent.setData(Uri.parse(uri));
                 if (intent.resolveActivity(getPackageManager()) != null) {
