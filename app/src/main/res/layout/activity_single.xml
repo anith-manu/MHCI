@@ -1,0 +1,46 @@
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Single Tour"
+        android:textSize="48sp"
+        android:gravity="center"
+        android:layout_marginTop="30dp"/>
+
+    <LinearLayout
+        android:layout_marginTop="100dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="The single tour is a scavenger hunt
+for buildings around the University of Glasgow. You will be shown a picture
+of a building or notable site around the university and using directions around campus,
+you deen to ge to the location. There is also an indicator that will read 'warmer' as you moce closer
+to the destionation or 'colder' as you move away. THe indicator will read 'hot' once you are within
+50m of the destionation and 'very hot' within 20m. Ask around for directions if you get stuck.
+Good luck!"
+            />
+
+        <Button
+            android:id="@+id/start_single_button"
+            android:layout_gravity="center"
+            android:background="@drawable/myroundbutton"
+            android:layout_marginTop="40dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Start"
+            android:textColor="#ffffff"/>
+
+    </LinearLayout>
+</LinearLayout>

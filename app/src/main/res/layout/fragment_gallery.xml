@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id = "@+id/photo"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:src="@drawable/ic_account_circle">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/hello"
+        android:text="Hello"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:layout_weight="0.05"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/name"
+        android:text="User's Name"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.05"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="0.7">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="40dp"
+                    android:paddingTop="40dp"
+                    android:paddingBottom="5dp"
+                    android:text="Firstname:"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/first_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="40dp"
+                    android:paddingTop="40dp"
+                    android:paddingBottom="7dp"
+
+                    android:textSize="16sp"
+                    android:textColor="@color/colorPrimaryDark">
+                </TextView>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="40dp"
+                    android:paddingTop="12dp"
+                    android:paddingBottom="5dp"
+                    android:text="Surname:"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/sur_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="40dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="5dp"
+
+                    android:textSize="16sp"
+                    android:textColor="@color/colorPrimaryDark">
+                </TextView>
+
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="40dp"
+                    android:paddingTop="12dp"
+                    android:paddingBottom="5dp"
+                    android:text="Email:"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/email_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="40dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="5dp"
+
+                    android:textSize="16sp"
+                    android:textColor="@color/colorPrimaryDark">
+                </TextView>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="40dp"
+                    android:paddingTop="12dp"
+                    android:paddingBottom="5dp"
+                    android:text="Age:"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/age"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="40dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="5dp"
+                    android:textSize="16sp"
+                    android:textColor="@color/colorPrimaryDark">
+                </TextView>
+
+
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="35dp"
+                    android:paddingTop="12dp"
+                    android:paddingBottom="5dp"
+                    android:text="Password:"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/password"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="35dp"
+                    android:paddingTop="12dp"
+                    android:paddingBottom="5dp"
+                    android:textSize="16sp"
+                    android:textColor="@color/colorPrimaryDark">
+                </TextView>
+
+
+            </TableRow>
+
+
+        </TableLayout>
+        <Button
+            android:id = "@+id/okButton"
+            android:background="@drawable/myroundbutton"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:layout_width="180dp"
+            android:layout_height="60dp"
+            android:text="CONFIRM"
+            android:textColor="#fff"
+            />
+    </LinearLayout>
+
+</LinearLayout>

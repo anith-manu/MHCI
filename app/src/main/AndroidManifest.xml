@@ -9,7 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ModesMenu"></activity>
+        <activity android:name=".GroupActivity"></activity>
+        <activity android:name=".SingleActivity" />
+        <activity android:name=".GuidedTourActivity" />
+        <activity android:name=".FutureActivity" />
+        <activity
+            android:name=".ModesActivity"
+            android:label="@string/title_activity_modes"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ModesMenu" />
         <activity android:name=".ExploreBuildings" />
         <activity android:name=".LogInActivity" />
         <activity android:name=".MainActivity">
