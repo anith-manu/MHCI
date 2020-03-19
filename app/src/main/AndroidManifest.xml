@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".HuntingActivity"></activity>
+        <activity android:name=".LeaderboardActivity"></activity>
+        <activity android:name=".MapActivity" />
+        <activity android:name=".GroupCreationActivity" />
+        <activity android:name=".SelectGroupActivity" />
+        <activity android:name=".HuntingActivity" />
         <activity android:name=".GroupActivity" />
         <activity android:name=".SingleActivity" />
         <activity android:name=".GuidedTourActivity" />

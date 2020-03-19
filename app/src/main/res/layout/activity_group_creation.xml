@@ -1,0 +1,39 @@
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter size of your group"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_marginTop="80dp"/>
+
+    <LinearLayout
+        android:layout_marginTop="200dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="number of team members"
+            android:inputType="number"
+            />
+
+        <Button
+            android:id="@+id/create_group_button"
+            android:layout_gravity="center"
+            android:background="@drawable/myroundbutton"
+            android:layout_marginTop="40dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Create Group"
+            android:textColor="#ffffff"/>
+
+    </LinearLayout>
+</LinearLayout>
