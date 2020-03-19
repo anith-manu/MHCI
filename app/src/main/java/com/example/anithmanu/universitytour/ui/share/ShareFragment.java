@@ -13,6 +13,7 @@ import android.arch.lifecycle.Observer;
 import android.arch.lifecycle.ViewModelProviders;
 
 import com.example.anithmanu.universitytour.LogInActivity;
+import com.example.anithmanu.universitytour.MainActivity;
 import com.example.anithmanu.universitytour.R;
 
 public class ShareFragment extends Fragment {
@@ -25,7 +26,7 @@ public class ShareFragment extends Fragment {
                 ViewModelProviders.of(this).get(ShareViewModel.class);
         View root = inflater.inflate(R.layout.fragment_share, container, false);
 
-        Intent intent = new Intent(getContext(), LogInActivity.class);
+        Intent intent = new Intent(getContext(), MainActivity.class);
         startActivity(intent);
         final TextView textView = root.findViewById(R.id.text_share);
         shareViewModel.getText().observe(this, new Observer<String>() {

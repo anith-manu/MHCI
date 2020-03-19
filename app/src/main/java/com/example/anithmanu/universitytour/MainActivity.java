@@ -27,6 +27,15 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        guestButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(),ModesActivity.class);
+                intent.putExtra("firstKeyName","guest");
+                startActivity(intent);
+            }
+        });
     }
 
 
